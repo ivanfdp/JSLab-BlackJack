@@ -1,0 +1,37 @@
+html, body {
+  margin: 0px;
+  background-color: #2F4F30;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.carta {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 8%;
+  position: relative;
+  width: 150px;
+  left: 100px;
+  margin-left: -75px;
+    -webkit-transition: -webkit-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    -ms-transition: -ms-transform 0.2s;
+    transition: transform 0.2s;
+}
+.carta:hover {
+    z-index: 9999;
+    top: 25px;
+}
+
+
+#player-cards, #computer-cards {
+  height: 250px;
+}
+
